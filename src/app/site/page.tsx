@@ -1,5 +1,5 @@
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { pricingCards } from "@/lib/constant";
+﻿import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { pricingCards } from "@/lib/constants";
 import clsx from "clsx";
 import { Check } from "lucide-react";
 import Image from "next/image";
@@ -78,3 +78,6 @@ const Page = () => {
 };
 
 export default Page;
+
+
+
